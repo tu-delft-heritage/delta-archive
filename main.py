@@ -44,6 +44,9 @@ meta = [{
 
 json_out = {"label": Meta.title,
             "metadata": meta,
+            "@id": "https://raw.githubusercontent.com/sammeltassen/iiif-manifests/master/journals/th-mededelingen.json",
+            "@type": "sc:Collection",
+            "@context": "http://iiif.io/api/presentation/2/context.json",
             "manifests": []}
 
 for i, key in enumerate(groups.keys()):
