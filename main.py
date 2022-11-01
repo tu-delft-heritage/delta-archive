@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+import json
 import numpy as np
 import os
 import requests
@@ -56,8 +57,9 @@ for i, key in enumerate(groups.keys()):
 
     json_out["manifests"].append(mani)
 
+json_object = json.dumps(json_out, indent = 5)
 json_filename = "testtest"
 with open("{}.json".format(json_filename), "w") as outfile:
-    outfile.write(json_out)
+    outfile.write(json_object)
 
 
