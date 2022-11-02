@@ -75,13 +75,23 @@ for i, key in enumerate(groups.keys()):
         structure = {
           "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/{}".format(j),
           "@type": "sc:Range",
-          "label": "Nr. {}".format(j+1),
+          "label": "Nr. {}".format(str(int(ref3))),
           "canvases": [
             "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2={}".format(index_page)
           ],
           "within": ""
         }
         json_req['structures'].append(structure)
+    json_req["metadata"] = [
+        {"label": "Title",
+         "value": "TU Delta"},
+        {"label": "Author(s)",
+         "value": ""},
+        {"label": "Year",
+         "value": ref2},
+        {"label": "Yearnr.",
+         "value": i+15}
+    ]
 
     json_year = json.dumps(json_req, indent=8)
 

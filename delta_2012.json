@@ -5,7 +5,19 @@
         "metadata": [
                 {
                         "label": "Title",
-                        "value": "Created by DLCS"
+                        "value": "TU Delta"
+                },
+                {
+                        "label": "Author(s)",
+                        "value": ""
+                },
+                {
+                        "label": "Year",
+                        "value": "2012"
+                },
+                {
+                        "label": "Yearnr.",
+                        "value": 44
                 }
         ],
         "sequences": [
@@ -22344,7 +22356,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/4",
                         "@type": "sc:Range",
-                        "label": "Nr. 5",
+                        "label": "Nr. 6",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=63"
                         ],
@@ -22353,7 +22365,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/5",
                         "@type": "sc:Range",
-                        "label": "Nr. 6",
+                        "label": "Nr. 7",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=79"
                         ],
@@ -22362,7 +22374,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/6",
                         "@type": "sc:Range",
-                        "label": "Nr. 7",
+                        "label": "Nr. 9",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=95"
                         ],
@@ -22371,7 +22383,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/7",
                         "@type": "sc:Range",
-                        "label": "Nr. 8",
+                        "label": "Nr. 10",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=111"
                         ],
@@ -22380,7 +22392,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/8",
                         "@type": "sc:Range",
-                        "label": "Nr. 9",
+                        "label": "Nr. 11",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=127"
                         ],
@@ -22389,7 +22401,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/9",
                         "@type": "sc:Range",
-                        "label": "Nr. 10",
+                        "label": "Nr. 13",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=143"
                         ],
@@ -22398,7 +22410,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/10",
                         "@type": "sc:Range",
-                        "label": "Nr. 11",
+                        "label": "Nr. 14",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=159"
                         ],
@@ -22407,7 +22419,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/11",
                         "@type": "sc:Range",
-                        "label": "Nr. 12",
+                        "label": "Nr. 15",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=175"
                         ],
@@ -22416,7 +22428,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/12",
                         "@type": "sc:Range",
-                        "label": "Nr. 13",
+                        "label": "Nr. 18",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=191"
                         ],
@@ -22425,7 +22437,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/13",
                         "@type": "sc:Range",
-                        "label": "Nr. 14",
+                        "label": "Nr. 19",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=207"
                         ],
@@ -22434,7 +22446,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/14",
                         "@type": "sc:Range",
-                        "label": "Nr. 15",
+                        "label": "Nr. 22",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=239"
                         ],
@@ -22443,7 +22455,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/15",
                         "@type": "sc:Range",
-                        "label": "Nr. 16",
+                        "label": "Nr. 23",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=255"
                         ],
@@ -22452,7 +22464,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/16",
                         "@type": "sc:Range",
-                        "label": "Nr. 17",
+                        "label": "Nr. 26",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=291"
                         ],
@@ -22461,7 +22473,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/17",
                         "@type": "sc:Range",
-                        "label": "Nr. 18",
+                        "label": "Nr. 27",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=307"
                         ],
