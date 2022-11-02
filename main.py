@@ -4,6 +4,14 @@ import json
 import numpy as np
 import os
 import requests
+from collections import OrderedDict
+
+
+def ordered(d, desired_key_order):
+    return OrderedDict([(key, d[key]) for key in desired_key_order])
+
+
+desired_key_order = ("@context", "@id", "@type", "label", "metadata", "structures", "sequences")
 
 
 class Meta:
@@ -22,26 +30,24 @@ csv = pd.read_csv('tu-delta.csv')
 
 groups = csv.groupby(['Reference1', 'Reference2']).indices
 
-
-
 Meta.year = "{}-{}".format(min(re.findall(r'\d{4}', csv['Reference2'].min())),
                            max(re.findall(r'\d{4}', csv['Reference2'].max())))
 meta = [{
-            "label": "Title",
-            "value": Meta.title
-        },
-        {
-            "label": "Author(s)",
-            "value": Meta.author
-        },
-        {
-            "label": "Year",
-            "value": Meta.year
-        },
-        {
-            "label": "OCLC Number",
-            "value": ""
-        }]
+    "label": "Title",
+    "value": Meta.title
+},
+    {
+        "label": "Author(s)",
+        "value": Meta.author
+    },
+    {
+        "label": "Year",
+        "value": Meta.year
+    },
+    {
+        "label": "OCLC Number",
+        "value": ""
+    }]
 
 json_out = {"label": Meta.title,
             "metadata": meta,
@@ -73,13 +79,13 @@ for i, key in enumerate(groups.keys()):
         ref3 = csv.loc[group_mag[mag][0]]["Reference3"]
 
         structure = {
-          "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/{}".format(j),
-          "@type": "sc:Range",
-          "label": "Nr. {}".format(str(int(ref3))),
-          "canvases": [
-            "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2={}".format(index_page)
-          ],
-          "within": ""
+            "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/{}".format(j),
+            "@type": "sc:Range",
+            "label": "Nr. {}".format(str(int(ref3))),
+            "canvases": [
+                json_req["sequences"][0]["canvases"][index_page]["@id"]
+            ],
+            "within": ""
         }
         json_req['structures'].append(structure)
     json_req["metadata"] = [
@@ -90,18 +96,18 @@ for i, key in enumerate(groups.keys()):
         {"label": "Year",
          "value": ref2},
         {"label": "Yearnr.",
-         "value": str(i+15)}
+         "value": str(i + 15)}
     ]
+
+    json_req["label"] = "Delta,Jaargang, {} ({})".format(str(i + 15), ref2)
+    json_req = ordered(json_req, desired_key_order)
 
     json_year = json.dumps(json_req, indent=8)
 
     with open(year_filename, "w") as outfile:
         outfile.write(json_year)
 
-
 json_object = json.dumps(json_out, indent=5)
 json_filename = "testtest"
 with open("{}.json".format(json_filename), "w") as outfile:
     outfile.write(json_object)
-
-
