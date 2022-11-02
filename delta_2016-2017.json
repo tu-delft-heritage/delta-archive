@@ -17409,7 +17409,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/0",
                         "@type": "sc:Range",
-                        "label": "No. 1",
+                        "label": "Nr. 1",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=0"
                         ],
@@ -17418,7 +17418,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/1",
                         "@type": "sc:Range",
-                        "label": "No. 2",
+                        "label": "Nr. 2",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=32"
                         ],
@@ -17427,7 +17427,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/2",
                         "@type": "sc:Range",
-                        "label": "No. 3",
+                        "label": "Nr. 3",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=64"
                         ],
@@ -17436,7 +17436,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/3",
                         "@type": "sc:Range",
-                        "label": "No. 4",
+                        "label": "Nr. 4",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=96"
                         ],
@@ -17445,7 +17445,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/4",
                         "@type": "sc:Range",
-                        "label": "No. 5",
+                        "label": "Nr. 5",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=128"
                         ],
@@ -17454,7 +17454,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/5",
                         "@type": "sc:Range",
-                        "label": "No. 6",
+                        "label": "Nr. 6",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=158"
                         ],
@@ -17463,7 +17463,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/6",
                         "@type": "sc:Range",
-                        "label": "No. 7",
+                        "label": "Nr. 7",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=190"
                         ],
@@ -17472,7 +17472,7 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/7",
                         "@type": "sc:Range",
-                        "label": "No. 8",
+                        "label": "Nr. 8",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2=220"
                         ],

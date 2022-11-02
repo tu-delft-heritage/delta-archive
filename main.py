@@ -53,6 +53,7 @@ json_out = {"label": Meta.title,
 for i, key in enumerate(groups.keys()):
     ref1 = key[0]
     ref2 = key[1]
+
     dlcs_json = dlcs_base.format(ref1, ref2)
     year_filename = "{}_{}.json".format(ref1, ref2)
     ref_id = "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/{}".format(year_filename)
@@ -69,11 +70,12 @@ for i, key in enumerate(groups.keys()):
     json_req['structures'] = []
     for j, mag in enumerate(group_mag.keys()):
         index_page = group_mag[mag][0]
+        ref3 = csv.loc[group_mag[mag][0]]["Reference3"]
 
         structure = {
           "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/{}".format(j),
           "@type": "sc:Range",
-          "label": "No. {}".format(j+1),
+          "label": "Nr. {}".format(j+1),
           "canvases": [
             "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2={}".format(index_page)
           ],
