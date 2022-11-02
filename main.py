@@ -23,6 +23,7 @@ csv = pd.read_csv('tu-delta.csv')
 groups = csv.groupby(['Reference1', 'Reference2']).indices
 
 
+
 Meta.year = "{}-{}".format(min(re.findall(r'\d{4}', csv['Reference2'].min())),
                            max(re.findall(r'\d{4}', csv['Reference2'].max())))
 meta = [{
@@ -53,14 +54,40 @@ for i, key in enumerate(groups.keys()):
     ref1 = key[0]
     ref2 = key[1]
     dlcs_json = dlcs_base.format(ref1, ref2)
-
+    year_filename = "{}_{}.json".format(ref1, ref2)
+    ref_id = "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/{}".format(year_filename)
     mani = {"@id": dlcs_json,
             "label": ref2,
             "@type": "sc:Manifest"}
 
     json_out["manifests"].append(mani)
 
-json_object = json.dumps(json_out, indent = 5)
+    group_mag = csv.loc[groups[key]].groupby(['Reference3']).indices
+    start_json_url = dlcs_json
+
+    json_req = requests.get(dlcs_json).json()
+    json_req['structures'] = []
+    for j, mag in enumerate(group_mag.keys()):
+        index_page = group_mag[mag][0]
+
+        structure = {
+          "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/{}".format(j),
+          "@type": "sc:Range",
+          "label": "No. {}".format(j+1),
+          "canvases": [
+            "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=delta&n1=&n2={}".format(index_page)
+          ],
+          "within": ""
+        }
+        json_req['structures'].append(structure)
+
+    json_year = json.dumps(json_req, indent=8)
+
+    with open(year_filename, "w") as outfile:
+        outfile.write(json_year)
+
+
+json_object = json.dumps(json_out, indent=5)
 json_filename = "testtest"
 with open("{}.json".format(json_filename), "w") as outfile:
     outfile.write(json_object)
