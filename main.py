@@ -56,7 +56,7 @@ for i, key in enumerate(groups.keys()):
     dlcs_json = dlcs_base.format(ref1, ref2)
     year_filename = "{}_{}.json".format(ref1, ref2)
     ref_id = "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/{}".format(year_filename)
-    mani = {"@id": dlcs_json,
+    mani = {"@id": ref_id,
             "label": ref2,
             "@type": "sc:Manifest"}
 
