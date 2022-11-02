@@ -83,7 +83,7 @@ for i, key in enumerate(groups.keys()):
         structure = {
             "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/{}".format(j),
             "@type": "sc:Range",
-            "label": "Nr. {}".format(ref3),
+            "label": "Nr. {}".format(ref3.replace("%20", " ")),
             "canvases": [
                 json_req["sequences"][0]["canvases"][index_page]["@id"]
             ],
