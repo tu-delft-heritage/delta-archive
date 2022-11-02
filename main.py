@@ -69,19 +69,21 @@ for i, key in enumerate(groups.keys()):
 
     json_out["manifests"].append(mani)
 
-    group_mag = csv.loc[groups[key]].groupby(['Reference3']).indices
+    group_key = csv.loc[groups[key]]
+    group_mag = group_key.groupby(['Reference3']).indices
     start_json_url = dlcs_json
 
     json_req = requests.get(dlcs_json).json()
     json_req['structures'] = []
     for j, mag in enumerate(group_mag.keys()):
         index_page = group_mag[mag][0]
-        ref3 = csv.loc[group_mag[mag][0]]["Reference3"]
+        # ref3 = csv.loc[group_mag[mag][0]]["Reference3"]
+        ref3 = mag
 
         structure = {
             "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/{}".format(j),
             "@type": "sc:Range",
-            "label": "Nr. {}".format(str(int(ref3))),
+            "label": "Nr. {}".format(ref3),
             "canvases": [
                 json_req["sequences"][0]["canvases"][index_page]["@id"]
             ],
