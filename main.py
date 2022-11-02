@@ -90,7 +90,7 @@ for i, key in enumerate(groups.keys()):
         {"label": "Year",
          "value": ref2},
         {"label": "Yearnr.",
-         "value": i+15}
+         "value": str(i+15)}
     ]
 
     json_year = json.dumps(json_req, indent=8)
