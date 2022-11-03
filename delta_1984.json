@@ -2,7 +2,7 @@
         "@context": "http://iiif.io/api/presentation/2/context.json",
         "@id": "https://dlc.services/iiif-resource/7/string1string2string3/delta/1984",
         "@type": "sc:Manifest",
-        "label": "Delta,Jaargang, 16 (1984)",
+        "label": "Delta, Jaargang, 16 (1984)",
         "metadata": [
                 {
                         "label": "Title",
