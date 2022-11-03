@@ -101,7 +101,7 @@ for i, key in enumerate(groups.keys()):
          "value": str(i + 15)}
     ]
 
-    json_req["label"] = "Delta, Jaargang, {} ({})".format(str(i + 15), ref2)
+    json_req["label"] = "Delta, Jaargang {} ({})".format(str(i + 15), ref2)
     json_req = ordered(json_req, desired_key_order)
 
     json_year = json.dumps(json_req, indent=8)

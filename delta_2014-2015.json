@@ -2,7 +2,7 @@
         "@context": "http://iiif.io/api/presentation/2/context.json",
         "@id": "https://dlc.services/iiif-resource/7/string1string2string3/delta/2014-2015",
         "@type": "sc:Manifest",
-        "label": "Delta, Jaargang, 47 (2014-2015)",
+        "label": "Delta, Jaargang 47 (2014-2015)",
         "metadata": [
                 {
                         "label": "Title",

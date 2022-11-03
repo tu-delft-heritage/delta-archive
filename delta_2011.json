@@ -2,7 +2,7 @@
         "@context": "http://iiif.io/api/presentation/2/context.json",
         "@id": "https://dlc.services/iiif-resource/7/string1string2string3/delta/2011",
         "@type": "sc:Manifest",
-        "label": "Delta, Jaargang, 43 (2011)",
+        "label": "Delta, Jaargang 43 (2011)",
         "metadata": [
                 {
                         "label": "Title",
