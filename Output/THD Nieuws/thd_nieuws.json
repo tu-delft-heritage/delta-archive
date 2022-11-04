@@ -23,72 +23,72 @@
      "@context": "http://iiif.io/api/presentation/2/context.json",
      "manifests": [
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/thd-nieuws_1969.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/THD%20Nieuws/thd-nieuws_1969.json",
                "label": "1969",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/thd-nieuws_1970.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/THD%20Nieuws/thd-nieuws_1970.json",
                "label": "1970",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/thd-nieuws_1971.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/THD%20Nieuws/thd-nieuws_1971.json",
                "label": "1971",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/thd-nieuws_1972.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/THD%20Nieuws/thd-nieuws_1972.json",
                "label": "1972",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/thd-nieuws_1973.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/THD%20Nieuws/thd-nieuws_1973.json",
                "label": "1973",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/thd-nieuws_1974.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/THD%20Nieuws/thd-nieuws_1974.json",
                "label": "1974",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/thd-nieuws_1975.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/THD%20Nieuws/thd-nieuws_1975.json",
                "label": "1975",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/thd-nieuws_1976.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/THD%20Nieuws/thd-nieuws_1976.json",
                "label": "1976",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/thd-nieuws_1977.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/THD%20Nieuws/thd-nieuws_1977.json",
                "label": "1977",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/thd-nieuws_1978.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/THD%20Nieuws/thd-nieuws_1978.json",
                "label": "1978",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/thd-nieuws_1979.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/THD%20Nieuws/thd-nieuws_1979.json",
                "label": "1979",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/thd-nieuws_1980.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/THD%20Nieuws/thd-nieuws_1980.json",
                "label": "1980",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/thd-nieuws_1981.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/THD%20Nieuws/thd-nieuws_1981.json",
                "label": "1981",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/thd-nieuws_1982.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/THD%20Nieuws/thd-nieuws_1982.json",
                "label": "1982",
                "@type": "sc:Manifest"
           }
