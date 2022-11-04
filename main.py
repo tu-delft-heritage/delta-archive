@@ -21,8 +21,8 @@ class Meta:
         self.year = year
 
 
-csv = pd.read_csv('tu_integraal.csv')
-Meta.title = "THD Nieuws"
+csv = pd.read_csv('tu-owee.csv')
+Meta.title = "TU Owee"
 Meta.author = ""
 
 dlcs_base = "https://dlc.services/iiif-resource/7/string1string2string3/{}/{}"
@@ -53,7 +53,7 @@ meta = [{
 
 json_out = {"label": Meta.title,
             "metadata": meta,
-            "@id": "https://raw.githubusercontent.com/sammeltassen/iiif-manifests/master/journals/thd-nieuws.json",
+            "@id": "https://raw.githubusercontent.com/sammeltassen/iiif-manifests/master/journals/tu_owee.json",
             "@type": "sc:Collection",
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "manifests": []}
@@ -64,7 +64,7 @@ for i, key in enumerate(groups.keys()):
 
     dlcs_json = dlcs_base.format(ref1, ref2)
     year_filename = "{}_{}.json".format(ref1, ref2)
-    ref_id = "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/THD%20Nieuws/{}".format(year_filename)
+    ref_id = "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU%20Owee/{}".format(year_filename)
     mani = {"@id": ref_id,
             "label": str(ref2),
             "@type": "sc:Manifest"}
@@ -85,7 +85,7 @@ for i, key in enumerate(groups.keys()):
         structure = {
             "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/{}".format(j),
             "@type": "sc:Range",
-            "label": "Nr. {}".format(ref3.replace("%20", " ")),
+            "label": "Nr. {}".format(ref3),
             "canvases": [
                 json_req["sequences"][0]["canvases"][index_page]["@id"]
             ],
