@@ -21,17 +21,19 @@ class Meta:
         self.year = year
 
 
-Meta.title = "TU Delta"
+csv = pd.read_csv('oclc-72658033-thd-nieuws.csv')
+Meta.title = "THD Nieuws"
 Meta.author = ""
 
 dlcs_base = "https://dlc.services/iiif-resource/7/string1string2string3/{}/{}"
 
-csv = pd.read_csv('tu-delta.csv')
-
 groups = csv.groupby(['Reference1', 'Reference2']).indices
+#
+# Meta.year = "{}-{}".format(min(re.findall(r'\d{4}', csv['Reference2'].min())),
+#                            max(re.findall(r'\d{4}', csv['Reference2'].max())))
 
-Meta.year = "{}-{}".format(min(re.findall(r'\d{4}', csv['Reference2'].min())),
-                           max(re.findall(r'\d{4}', csv['Reference2'].max())))
+Meta.year = "{}-{}".format(csv['Reference2'].min(),
+                           csv['Reference2'].max())
 meta = [{
     "label": "Title",
     "value": Meta.title
@@ -51,7 +53,7 @@ meta = [{
 
 json_out = {"label": Meta.title,
             "metadata": meta,
-            "@id": "https://raw.githubusercontent.com/sammeltassen/iiif-manifests/master/journals/th-mededelingen.json",
+            "@id": "https://raw.githubusercontent.com/sammeltassen/iiif-manifests/master/journals/thd-nieuws.json",
             "@type": "sc:Collection",
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "manifests": []}
@@ -64,7 +66,7 @@ for i, key in enumerate(groups.keys()):
     year_filename = "{}_{}.json".format(ref1, ref2)
     ref_id = "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/{}".format(year_filename)
     mani = {"@id": ref_id,
-            "label": ref2,
+            "label": str(ref2),
             "@type": "sc:Manifest"}
 
     json_out["manifests"].append(mani)
@@ -92,24 +94,24 @@ for i, key in enumerate(groups.keys()):
         json_req['structures'].append(structure)
     json_req["metadata"] = [
         {"label": "Title",
-         "value": "TU Delta"},
+         "value": Meta.title},
         {"label": "Author(s)",
          "value": ""},
         {"label": "Year",
-         "value": ref2},
+         "value": str(ref2)},
         {"label": "Yearnr.",
          "value": str(i + 15)}
     ]
 
-    json_req["label"] = "Delta, Jaargang {} ({})".format(str(i + 15), ref2)
+    json_req["label"] = "{}, Jaargang {} ({})".format(Meta.title, str(i + 15), str(ref2))
     json_req = ordered(json_req, desired_key_order)
 
     json_year = json.dumps(json_req, indent=8)
 
-    with open(year_filename, "w") as outfile:
+    with open("Output/"+Meta.title+"/"+year_filename, "w") as outfile:
         outfile.write(json_year)
 
 json_object = json.dumps(json_out, indent=5)
-json_filename = "testtest"
-with open("{}.json".format(json_filename), "w") as outfile:
+json_filename = Meta.title.replace(" ", "_").lower()
+with open("Output/"+Meta.title+"/{}.json".format(json_filename), "w") as outfile:
     outfile.write(json_object)
