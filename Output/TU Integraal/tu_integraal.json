@@ -23,192 +23,192 @@
      "@context": "http://iiif.io/api/presentation/2/context.json",
      "manifests": [
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_1984.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_1984.json",
                "label": "1984",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_1985.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_1985.json",
                "label": "1985",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_1986.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_1986.json",
                "label": "1986",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_1987.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_1987.json",
                "label": "1987",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_1988.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_1988.json",
                "label": "1988",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_1989.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_1989.json",
                "label": "1989",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_1990.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_1990.json",
                "label": "1990",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_1991.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_1991.json",
                "label": "1991",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_1992.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_1992.json",
                "label": "1992",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_1993.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_1993.json",
                "label": "1993",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_1994.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_1994.json",
                "label": "1994",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_1995.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_1995.json",
                "label": "1995",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_1996.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_1996.json",
                "label": "1996",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_1997.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_1997.json",
                "label": "1997",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_1998.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_1998.json",
                "label": "1998",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_1999.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_1999.json",
                "label": "1999",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2000.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2000.json",
                "label": "2000",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2001.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2001.json",
                "label": "2001",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2002.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2002.json",
                "label": "2002",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2003.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2003.json",
                "label": "2003",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2004.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2004.json",
                "label": "2004",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2005.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2005.json",
                "label": "2005",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2006.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2006.json",
                "label": "2006",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2007.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2007.json",
                "label": "2007",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2008.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2008.json",
                "label": "2008",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2009.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2009.json",
                "label": "2009",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2010.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2010.json",
                "label": "2010",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2011.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2011.json",
                "label": "2011",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2012.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2012.json",
                "label": "2012",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2013.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2013.json",
                "label": "2013",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2014.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2014.json",
                "label": "2014",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2015.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2015.json",
                "label": "2015",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2016.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2016.json",
                "label": "2016",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2017.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2017.json",
                "label": "2017",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2018.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2018.json",
                "label": "2018",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2019.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2019.json",
                "label": "2019",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2020.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2020.json",
                "label": "2020",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU_Integraal/nl-integraal_2021.json",
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TU Integraal/nl-integraal_2021.json",
                "label": "2021",
                "@type": "sc:Manifest"
           }
