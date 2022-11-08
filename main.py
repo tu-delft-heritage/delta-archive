@@ -21,8 +21,8 @@ class Meta:
         self.year = year
 
 
-csv = pd.read_csv('oclc-72722627-delft-integraal.csv')
-Meta.title = "TU Integraal"
+csv = pd.read_csv('oclc-72722627-delft-outlook.csv')
+Meta.title = "TU Outlook"
 Meta.author = ""
 
 dlcs_base = "https://dlc.services/iiif-resource/7/string1string2string3/{}/{}"
@@ -63,7 +63,7 @@ for i, key in enumerate(groups.keys()):
     ref1 = key[0]
     ref2 = key[1]
 
-    dlcs_json = dlcs_base.format(ref1.lstrip("nl-"), ref2)
+    dlcs_json = dlcs_base.format(ref1.lstrip("en-"), ref2)
     year_filename = "{}_{}.json".format(ref1, ref2)
     ref_id = "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/{}/{}"\
         .format(Meta.title, year_filename)
