@@ -21,8 +21,8 @@ class Meta:
         self.year = year
 
 
-csv = pd.read_csv('oclc-72722627-delft-outlook.csv')
-Meta.title = "TU Outlook"
+csv = pd.read_csv('72820760-01-08-updated_th_mededelingen.csv')
+Meta.title = "TH Mededelingen"
 Meta.author = ""
 
 dlcs_base = "https://dlc.services/iiif-resource/7/string1string2string3/{}/{}"

@@ -1,0 +1,71 @@
+{
+     "label": "TH Mededelingen",
+     "metadata": [
+          {
+               "label": "Title",
+               "value": "TH Mededelingen"
+          },
+          {
+               "label": "Author(s)",
+               "value": ""
+          },
+          {
+               "label": "Year",
+               "value": "1952-index"
+          },
+          {
+               "label": "OCLC Number",
+               "value": ""
+          }
+     ],
+     "@id": "https://raw.githubusercontent.com/sammeltassen/iiif-manifests/master/journals/th_mededelingen.json",
+     "@type": "sc:Collection",
+     "@context": "http://iiif.io/api/presentation/2/context.json",
+     "manifests": [
+          {
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TH Mededelingen/th-mededelingen_1952.json",
+               "label": "1952",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TH Mededelingen/th-mededelingen_1954.json",
+               "label": "1954",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TH Mededelingen/th-mededelingen_1955.json",
+               "label": "1955",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TH Mededelingen/th-mededelingen_1956.json",
+               "label": "1956",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TH Mededelingen/th-mededelingen_1957.json",
+               "label": "1957",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TH Mededelingen/th-mededelingen_1958.json",
+               "label": "1958",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TH Mededelingen/th-mededelingen_1959.json",
+               "label": "1959",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TH Mededelingen/th-mededelingen_1960.json",
+               "label": "1960",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/TH Mededelingen/th-mededelingen_index.json",
+               "label": "index",
+               "@type": "sc:Manifest"
+          }
+     ]
+}
