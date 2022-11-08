@@ -1,0 +1,25 @@
+{
+     "label": "TU Noorderkrant",
+     "metadata": [
+          {
+               "label": "Title",
+               "value": "TU Noorderkrant"
+          },
+          {
+               "label": "Author(s)",
+               "value": ""
+          },
+          {
+               "label": "Year",
+               "value": "nan-nan"
+          },
+          {
+               "label": "OCLC Number",
+               "value": ""
+          }
+     ],
+     "@id": "https://raw.githubusercontent.com/sammeltassen/iiif-manifests/master/journals/tu_noorderkrant.json",
+     "@type": "sc:Collection",
+     "@context": "http://iiif.io/api/presentation/2/context.json",
+     "manifests": []
+}
