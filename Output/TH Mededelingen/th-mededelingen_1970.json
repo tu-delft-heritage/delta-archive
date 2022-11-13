@@ -10,15 +10,15 @@
                 },
                 {
                         "label": "Author(s)",
-                        "value": ""
+                        "value": "Delft: Technische Hogeschool"
                 },
                 {
                         "label": "Year",
                         "value": "1970"
                 },
                 {
-                        "label": "Yearnr.",
-                        "value": "32"
+                        "label": "Worldcat",
+                        "value": "\"<a href=\"https://tudelft.on.worldcat.org/oclc/72820760\">72820760</a>\""
                 }
         ],
         "structures": [
@@ -34,15 +34,6 @@
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/1",
                         "@type": "sc:Range",
-                        "label": "Nr. 10",
-                        "canvases": [
-                                "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=th-mededelingen&n1=&n2=1578"
-                        ],
-                        "within": ""
-                },
-                {
-                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/2",
-                        "@type": "sc:Range",
                         "label": "Nr. 2",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=th-mededelingen&n1=&n2=1409"
@@ -50,7 +41,7 @@
                         "within": ""
                 },
                 {
-                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/3",
+                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/2",
                         "@type": "sc:Range",
                         "label": "Nr. 3",
                         "canvases": [
@@ -59,7 +50,7 @@
                         "within": ""
                 },
                 {
-                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/4",
+                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/3",
                         "@type": "sc:Range",
                         "label": "Nr. 4",
                         "canvases": [
@@ -68,7 +59,7 @@
                         "within": ""
                 },
                 {
-                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/5",
+                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/4",
                         "@type": "sc:Range",
                         "label": "Nr. 5",
                         "canvases": [
@@ -77,7 +68,7 @@
                         "within": ""
                 },
                 {
-                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/6",
+                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/5",
                         "@type": "sc:Range",
                         "label": "Nr. 6",
                         "canvases": [
@@ -86,7 +77,7 @@
                         "within": ""
                 },
                 {
-                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/7",
+                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/6",
                         "@type": "sc:Range",
                         "label": "Nr. 7",
                         "canvases": [
@@ -95,7 +86,7 @@
                         "within": ""
                 },
                 {
-                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/8",
+                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/7",
                         "@type": "sc:Range",
                         "label": "Nr. 8",
                         "canvases": [
@@ -104,11 +95,20 @@
                         "within": ""
                 },
                 {
-                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/9",
+                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/8",
                         "@type": "sc:Range",
                         "label": "Nr. 9",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=th-mededelingen&n1=&n2=1558"
+                        ],
+                        "within": ""
+                },
+                {
+                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/9",
+                        "@type": "sc:Range",
+                        "label": "Nr. 10",
+                        "canvases": [
+                                "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=th-mededelingen&n1=&n2=1578"
                         ],
                         "within": ""
                 }

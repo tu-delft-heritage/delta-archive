@@ -10,33 +10,33 @@
                 },
                 {
                         "label": "Author(s)",
-                        "value": ""
+                        "value": "Delft: Technische Hogeschool"
                 },
                 {
                         "label": "Year",
                         "value": "1959"
                 },
                 {
-                        "label": "Yearnr.",
-                        "value": "21"
+                        "label": "Worldcat",
+                        "value": "\"<a href=\"https://tudelft.on.worldcat.org/oclc/72820760\">72820760</a>\""
                 }
         ],
         "structures": [
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/0",
                         "@type": "sc:Range",
-                        "label": "Nr. 1",
+                        "label": "02/Mar",
                         "canvases": [
-                                "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=th-mededelingen&n1=&n2=948"
+                                "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=th-mededelingen&n1=&n2=978"
                         ],
                         "within": ""
                 },
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/1",
                         "@type": "sc:Range",
-                        "label": "Nr. 2-3",
+                        "label": "Nr. 1",
                         "canvases": [
-                                "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=th-mededelingen&n1=&n2=978"
+                                "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=th-mededelingen&n1=&n2=948"
                         ],
                         "within": ""
                 },

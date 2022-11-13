@@ -10,15 +10,15 @@
                 },
                 {
                         "label": "Author(s)",
-                        "value": ""
+                        "value": "Delft: Technische Hogeschool"
                 },
                 {
                         "label": "Year",
                         "value": "1954"
                 },
                 {
-                        "label": "Yearnr.",
-                        "value": "16"
+                        "label": "Worldcat",
+                        "value": "\"<a href=\"https://tudelft.on.worldcat.org/oclc/72820760\">72820760</a>\""
                 }
         ],
         "structures": [
@@ -72,7 +72,7 @@
                         "@type": "sc:Range",
                         "label": "Nr. 6",
                         "canvases": [
-                                "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=th-mededelingen&n1=&n2=288"
+                                "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=th-mededelingen&n1=&n2=290"
                         ],
                         "within": ""
                 }

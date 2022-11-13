@@ -10,20 +10,29 @@
                 },
                 {
                         "label": "Author(s)",
-                        "value": ""
+                        "value": "Delft: Technische Hogeschool"
                 },
                 {
                         "label": "Year",
                         "value": "1958"
                 },
                 {
-                        "label": "Yearnr.",
-                        "value": "20"
+                        "label": "Worldcat",
+                        "value": "\"<a href=\"https://tudelft.on.worldcat.org/oclc/72820760\">72820760</a>\""
                 }
         ],
         "structures": [
                 {
                         "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/0",
+                        "@type": "sc:Range",
+                        "label": "03/Apr",
+                        "canvases": [
+                                "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=th-mededelingen&n1=&n2=866"
+                        ],
+                        "within": ""
+                },
+                {
+                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/1",
                         "@type": "sc:Range",
                         "label": "Nr. 1",
                         "canvases": [
@@ -32,20 +41,11 @@
                         "within": ""
                 },
                 {
-                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/1",
+                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/2",
                         "@type": "sc:Range",
                         "label": "Nr. 2",
                         "canvases": [
                                 "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=th-mededelingen&n1=&n2=838"
-                        ],
-                        "within": ""
-                },
-                {
-                        "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/2",
-                        "@type": "sc:Range",
-                        "label": "Nr. 3-4",
-                        "canvases": [
-                                "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=th-mededelingen&n1=&n2=866"
                         ],
                         "within": ""
                 },

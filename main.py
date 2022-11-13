@@ -21,9 +21,9 @@ class Meta:
         self.year = year
 
 
-csv = pd.read_csv('72820760-01-08-updated_th_mededelingen.csv')
+csv = pd.read_csv('72820760-01-08-updated-removed-errors.csv')
 Meta.title = "TH Mededelingen"
-Meta.author = ""
+Meta.author = "Delft: Technische Hogeschool"
 
 dlcs_base = "https://dlc.services/iiif-resource/7/string1string2string3/{}/{}"
 
@@ -35,11 +35,11 @@ groups = csv.groupby(['Reference1', 'Reference2']).indices
 Meta.year = "{}-{}".format(csv['Reference2'].min(),
                            csv['Reference2'].max())
 meta = [{
-    "label": "Title",
+    "label": "Titel",
     "value": Meta.title
 },
     {
-        "label": "Author(s)",
+        "label": "Uitgave",
         "value": Meta.author
     },
     {
@@ -47,8 +47,8 @@ meta = [{
         "value": Meta.year
     },
     {
-        "label": "OCLC Number",
-        "value": ""
+        "label": "Worldcat",
+        "value": '"<a href="https://tudelft.on.worldcat.org/oclc/72820760">72820760</a>"'
     }]
 
 json_out = {"label": Meta.title,
@@ -79,15 +79,26 @@ for i, key in enumerate(groups.keys()):
 
     json_req = requests.get(dlcs_json).json()
     json_req['structures'] = []
-    for j, mag in enumerate(group_mag.keys()):
-        index_page = group_mag[mag][0]
-        # ref3 = csv.loc[group_mag[mag][0]]["Reference3"]
-        ref3 = mag
+    mag_key_list = list(group_mag.keys())
+    for k, mag_key in enumerate(mag_key_list):
+        if mag_key.isdigit():
+            mag_key_list[k] = np.int_(mag_key)
+        else:
+            mag_key_list[k] = mag_key
 
+    mag_keys = np.sort(mag_key_list)
+    for j, mag in enumerate(mag_keys):
+        index_page = group_mag[str(mag)][0]
+        ref3 = mag
+        if str(ref3).isdigit():
+            struct_label = "Nr. {}".format(ref3)
+        else:
+            struct_label = ref3
+        # ref3 = csv.loc[group_mag[mag][0]]["Reference3"]
         structure = {
             "@id": "https://dlc.services/iiif-resource/7/string1/72820760-01/range/{}".format(j),
             "@type": "sc:Range",
-            "label": "Nr. {}".format(ref3),
+            "label": struct_label,
             "canvases": [
                 json_req["sequences"][0]["canvases"][index_page]["@id"]
             ],
@@ -98,11 +109,13 @@ for i, key in enumerate(groups.keys()):
         {"label": "Title",
          "value": Meta.title},
         {"label": "Author(s)",
-         "value": ""},
+         "value": Meta.author},
         {"label": "Year",
          "value": str(ref2)},
         {"label": "Yearnr.",
-         "value": str(i + 15)}
+         "value": str(i + 15),
+         "label": "Worldcat",
+         "value": '"<a href="https://tudelft.on.worldcat.org/oclc/72820760">72820760</a>"'}
     ]
 
     json_req["label"] = "{}, Jaargang {} ({})".format(Meta.title, str(i + 15), str(ref2))

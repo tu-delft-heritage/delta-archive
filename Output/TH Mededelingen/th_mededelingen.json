@@ -2,20 +2,20 @@
      "label": "TH Mededelingen",
      "metadata": [
           {
-               "label": "Title",
+               "label": "Titel",
                "value": "TH Mededelingen"
           },
           {
-               "label": "Author(s)",
-               "value": ""
+               "label": "Uitgave",
+               "value": "Delft: Technische Hogeschool"
           },
           {
                "label": "Year",
                "value": "1952-index"
           },
           {
-               "label": "OCLC Number",
-               "value": ""
+               "label": "Worldcat",
+               "value": "\"<a href=\"https://tudelft.on.worldcat.org/oclc/72820760\">72820760</a>\""
           }
      ],
      "@id": "https://raw.githubusercontent.com/sammeltassen/iiif-manifests/master/journals/th_mededelingen.json",
