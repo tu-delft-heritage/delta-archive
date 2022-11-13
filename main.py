@@ -15,15 +15,17 @@ desired_key_order = ("@context", "@id", "@type", "label", "metadata", "structure
 
 
 class Meta:
-    def __init__(self, title, author, year):
+    def __init__(self, title, author, year, worldcat):
         self.title = title
         self.author = author
         self.year = year
+        self.worldcat = worldcat
 
 
 csv = pd.read_csv('72820760-01-08-updated-removed-errors.csv')
-Meta.title = "TH Mededelingen"
+Meta.title = "TH_Mededelingen"
 Meta.author = "Delft: Technische Hogeschool"
+Meta.worldcat = '<a href="https://tudelft.on.worldcat.org/oclc/72820760">72820760</a>'
 
 dlcs_base = "https://dlc.services/iiif-resource/7/string1string2string3/{}/{}"
 
@@ -48,7 +50,7 @@ meta = [{
     },
     {
         "label": "Worldcat",
-        "value": '"<a href="https://tudelft.on.worldcat.org/oclc/72820760">72820760</a>"'
+        "value": Meta.worldcat
     }]
 
 json_out = {"label": Meta.title,
@@ -115,7 +117,7 @@ for i, key in enumerate(groups.keys()):
         {"label": "Yearnr.",
          "value": str(i + 15),
          "label": "Worldcat",
-         "value": '"<a href="https://tudelft.on.worldcat.org/oclc/72820760">72820760</a>"'}
+         "value": Meta.worldcat}
     ]
 
     json_req["label"] = "{}, Jaargang {} ({})".format(Meta.title, str(i + 15), str(ref2))

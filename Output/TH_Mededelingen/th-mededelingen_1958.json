@@ -2,11 +2,11 @@
         "@context": "http://iiif.io/api/presentation/2/context.json",
         "@id": "https://dlc.services/iiif-resource/7/string1string2string3/th-mededelingen/1958",
         "@type": "sc:Manifest",
-        "label": "TH Mededelingen, Jaargang 20 (1958)",
+        "label": "TH_Mededelingen, Jaargang 20 (1958)",
         "metadata": [
                 {
                         "label": "Title",
-                        "value": "TH Mededelingen"
+                        "value": "TH_Mededelingen"
                 },
                 {
                         "label": "Author(s)",
@@ -18,7 +18,7 @@
                 },
                 {
                         "label": "Worldcat",
-                        "value": "\"<a href=\"https://tudelft.on.worldcat.org/oclc/72820760\">72820760</a>\""
+                        "value": "<a href=\"https://tudelft.on.worldcat.org/oclc/72820760\">72820760</a>"
                 }
         ],
         "structures": [
