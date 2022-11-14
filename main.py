@@ -22,10 +22,12 @@ class Meta:
         self.worldcat = worldcat
 
 
-csv = pd.read_csv('72820760-01-08-updated-removed-errors.csv')
-Meta.title = "TH_Mededelingen"
+csv = pd.read_csv('csv/72820760-01-08-updated-removed-errors.csv')
+Meta.title = "TH Mededelingen"
 Meta.author = "Delft: Technische Hogeschool"
 Meta.worldcat = '<a href="https://tudelft.on.worldcat.org/oclc/72820760">72820760</a>'
+
+start_jaargang = 1
 
 dlcs_base = "https://dlc.services/iiif-resource/7/string1string2string3/{}/{}"
 
@@ -39,11 +41,11 @@ Meta.year = "{}-{}".format(csv['Reference2'].min(),
 meta = [{
     "label": "Titel",
     "value": Meta.title
-},
-    {
-        "label": "Uitgave",
-        "value": Meta.author
     },
+    # {
+    #     "label": "Uitgave",
+    #     "value": Meta.author
+    # },
     {
         "label": "Year",
         "value": Meta.year
@@ -53,10 +55,10 @@ meta = [{
         "value": Meta.worldcat
     }]
 
-json_out = {"label": Meta.title,
+json_out = {"label": Meta.title.replace("_", " "),
             "metadata": meta,
-            "@id": "https://raw.githubusercontent.com/sammeltassen/iiif-manifests/master/journals/{}.json"
-            .format(Meta.title.replace(" ", "_").lower()),
+            "@id": "https://tu-delft-library.github.io/delta-archief/manifests/{}.json"
+            .format(Meta.title.replace(" ", "-").lower()),
             "@type": "sc:Collection",
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "manifests": []}
@@ -66,9 +68,14 @@ for i, key in enumerate(groups.keys()):
     ref2 = key[1]
 
     dlcs_json = dlcs_base.format(ref1.lstrip("en-"), ref2)
-    year_filename = "{}_{}.json".format(ref1, ref2)
-    ref_id = "https://raw.githubusercontent.com/tu-delft-library/Create_JSON_Manifests/main/Output/{}/{}"\
-        .format(Meta.title, year_filename)
+    if ref2.isdigit():
+        jaar = str(ref2) + " " + str(np.int_(ref2) + 1)[2:]
+    else:
+        jaar = ref2
+    year_filename = "{}-{}.json".format(ref1.lower(), jaar)
+
+    ref_id = "https://tu-delft-library.github.io/delta-archief/manifests/{}/{}"\
+        .format(Meta.title.replace(" ", "-"), year_filename)
     mani = {"@id": ref_id,
             "label": str(ref2),
             "@type": "sc:Manifest"}
@@ -107,28 +114,35 @@ for i, key in enumerate(groups.keys()):
             "within": ""
         }
         json_req['structures'].append(structure)
+
+    # if int(ref2) < 1986:
+    #     uitgever = "Delft: Technische Hogeschool"
+    # elif int(ref2) == 1986:
+    #     uitgever = "Delft: Technische Hogeschool / Technische Universiteit"
+    # else:
+    #     uitgever = "Delft: Technische Universiteit"
+
+
     json_req["metadata"] = [
-        {"label": "Title",
+        {"label": "Titel",
          "value": Meta.title},
-        {"label": "Author(s)",
+        {"label": "Uitgever",
          "value": Meta.author},
-        {"label": "Year",
-         "value": str(ref2)},
-        {"label": "Yearnr.",
-         "value": str(i + 15),
-         "label": "Worldcat",
+        {"label": "Jaargang",
+         "value": str(i + start_jaargang)+" ("+jaar+")"},
+        {"label": "Worldcat",
          "value": Meta.worldcat}
     ]
 
-    json_req["label"] = "{}, Jaargang {} ({})".format(Meta.title, str(i + 15), str(ref2))
+    json_req["label"] = "{}, Jaargang {} ({})".format(Meta.title, str(i + start_jaargang), jaar)
     json_req = ordered(json_req, desired_key_order)
 
     json_year = json.dumps(json_req, indent=8)
 
-    with open("Output/"+Meta.title+"/"+year_filename, "w") as outfile:
+    with open("manifests/"+Meta.title.replace(" ", "-").lower()+"/"+year_filename, "w") as outfile:
         outfile.write(json_year)
 
 json_object = json.dumps(json_out, indent=5)
-json_filename = Meta.title.replace(" ", "_").lower()
-with open("Output/"+Meta.title+"/{}.json".format(json_filename), "w") as outfile:
+json_filename = Meta.title.replace(" ", "-").lower()
+with open("manifests/"+Meta.title.replace(" ", "-").lower()+"/{}.json".format(json_filename), "w") as outfile:
     outfile.write(json_object)
