@@ -22,10 +22,10 @@ class Meta:
         self.worldcat = worldcat
 
 
-csv = pd.read_csv('csv/th-mededelingen.csv')
-Meta.title = "TH Mededelingen"
+csv = pd.read_csv('csv/thd-nieuws.csv')
+Meta.title = "THD Nieuws"
 Meta.author = "Delft: Technische Hogeschool"
-Meta.worldcat = '<a href="https://tudelft.on.worldcat.org/oclc/72820760">72820760</a>'
+Meta.worldcat = '<a href="https://tudelft.on.worldcat.org/oclc/72658033">72658033</a>'
 
 start_jaargang = 1
 
@@ -37,7 +37,7 @@ groups = csv.groupby(['Reference1', 'Reference2']).indices
 #                            max(re.findall(r'\d{4}', csv['Reference2'].max())))
 
 Meta.year = "{}-{}".format(csv['Reference2'].min(),
-                           csv['Reference2'].max())
+                           str(csv['Reference2'].max())[2:])
 meta = [{
     "label": "Titel",
     "value": Meta.title
@@ -68,8 +68,9 @@ for i, key in enumerate(groups.keys()):
     ref2 = key[1]
 
     dlcs_json = dlcs_base.format(ref1.lstrip("en-"), ref2)
-    if ref2.isdigit():
-        jaar = str(ref2) + "-" + str(np.int_(ref2) + 1)[2:]
+    if str(ref2).isdigit():
+        # jaar = str(ref2) + "-" + str(np.int_(ref2) + 1)[2:]
+        jaar = str(np.int_(ref2)-1)+"-"+str(ref2)[2:]
     else:
         jaar = ref2
     year_filename = "{}-{}.json".format(ref1.lower(), jaar)
