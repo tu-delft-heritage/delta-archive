@@ -14,7 +14,7 @@
                "value": "<a href=\"https://tudelft.on.worldcat.org/oclc/72820760\">72820760</a>"
           }
      ],
-     "@id": "https://tu-delft-library.github.io/delta-archief/manifests/th-mededelingen.json",
+     "@id": "https://tu-delft-library.github.io/delta-archief/manifests/th-mededelingen/th-mededelingen.json",
      "@type": "sc:Collection",
      "@context": "http://iiif.io/api/presentation/2/context.json",
      "manifests": [

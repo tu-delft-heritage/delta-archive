@@ -57,8 +57,8 @@ meta = [{
 
 json_out = {"label": Meta.title.replace("_", " "),
             "metadata": meta,
-            "@id": "https://tu-delft-library.github.io/delta-archief/manifests/{}.json"
-            .format(Meta.title.replace(" ", "-").lower()),
+            "@id": "https://tu-delft-library.github.io/delta-archief/manifests/{}/{}.json"
+            .format(Meta.title.replace(" ", "-").lower(), Meta.title.replace(" ", "-").lower()),
             "@type": "sc:Collection",
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "manifests": []}
