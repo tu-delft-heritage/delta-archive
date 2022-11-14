@@ -22,12 +22,12 @@ class Meta:
         self.worldcat = worldcat
 
 
-csv = pd.read_csv('csv/thd-nieuws.csv')
-Meta.title = "THD Nieuws"
+csv = pd.read_csv('csv/delta.csv')
+Meta.title = "Delta"
 Meta.author = "Delft: Technische Hogeschool"
-Meta.worldcat = '<a href="https://tudelft.on.worldcat.org/oclc/72658033">72658033</a>'
+Meta.worldcat = '<a href="https://tudelft.on.worldcat.org/oclc/72677405">72677405</a>'
 
-start_jaargang = 1
+start_jaargang = 15
 
 dlcs_base = "https://dlc.services/iiif-resource/7/string1string2string3/{}/{}"
 
@@ -70,7 +70,11 @@ for i, key in enumerate(groups.keys()):
     dlcs_json = dlcs_base.format(ref1.lstrip("en-"), ref2)
     if str(ref2).isdigit():
         # jaar = str(ref2) + "-" + str(np.int_(ref2) + 1)[2:]
-        jaar = str(np.int_(ref2)-1)+"-"+str(ref2)[2:]
+        # jaar = str(np.int_(ref2)-1)+"-"+str(ref2)[2:]
+        if len(str(ref2)) >4:
+            jaar = str(ref2)[:4]+"-"+str(ref2)[-2:]
+        else:
+            jaar = str(np.int_(ref2) - 1) + "-" + str(ref2)[2:]
     else:
         jaar = ref2
     year_filename = "{}-{}.json".format(ref1.lower(), jaar)
@@ -98,6 +102,8 @@ for i, key in enumerate(groups.keys()):
 
     mag_keys = np.sort(mag_key_list)
     for j, mag in enumerate(mag_keys):
+        if len(str(mag)) == 1:
+            mag = str(mag).zfill(2)
         index_page = group_mag[str(mag)][0]
         ref3 = mag
         if str(ref3).isdigit():
@@ -116,12 +122,12 @@ for i, key in enumerate(groups.keys()):
         }
         json_req['structures'].append(structure)
 
-    # if int(ref2) < 1986:
-    #     uitgever = "Delft: Technische Hogeschool"
-    # elif int(ref2) == 1986:
-    #     uitgever = "Delft: Technische Hogeschool / Technische Universiteit"
-    # else:
-    #     uitgever = "Delft: Technische Universiteit"
+    if int(ref2[:4]) < 1986:
+        Meta.author = "Delft: Technische Hogeschool"
+    elif int(ref2[:4]) == 1986:
+        Meta.author = "Delft: Technische Hogeschool / Technische Universiteit"
+    else:
+        Meta.author = "Delft: Technische Universiteit"
 
 
     json_req["metadata"] = [
