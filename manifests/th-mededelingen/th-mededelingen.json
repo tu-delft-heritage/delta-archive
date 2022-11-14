@@ -1,0 +1,127 @@
+{
+     "label": "TH Mededelingen",
+     "metadata": [
+          {
+               "label": "Titel",
+               "value": "TH Mededelingen"
+          },
+          {
+               "label": "Year",
+               "value": "1952-index"
+          },
+          {
+               "label": "Worldcat",
+               "value": "<a href=\"https://tudelft.on.worldcat.org/oclc/72820760\">72820760</a>"
+          }
+     ],
+     "@id": "https://tu-delft-library.github.io/delta-archief/manifests/th-mededelingen.json",
+     "@type": "sc:Collection",
+     "@context": "http://iiif.io/api/presentation/2/context.json",
+     "manifests": [
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1952-53.json",
+               "label": "1952",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1954-55.json",
+               "label": "1954",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1955-56.json",
+               "label": "1955",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1956-57.json",
+               "label": "1956",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1957-58.json",
+               "label": "1957",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1958-59.json",
+               "label": "1958",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1959-60.json",
+               "label": "1959",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1960-61.json",
+               "label": "1960",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1961-62.json",
+               "label": "1961",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1962-63.json",
+               "label": "1962",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1963-64.json",
+               "label": "1963",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1964-65.json",
+               "label": "1964",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1965-66.json",
+               "label": "1965",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1966-67.json",
+               "label": "1966",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1967-68.json",
+               "label": "1967",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1968-69.json",
+               "label": "1968",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1969-70.json",
+               "label": "1969",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1970-71.json",
+               "label": "1970",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1971-72.json",
+               "label": "1971",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-1972-73.json",
+               "label": "1972",
+               "@type": "sc:Manifest"
+          },
+          {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/TH-Mededelingen/th-mededelingen-index.json",
+               "label": "index",
+               "@type": "sc:Manifest"
+          }
+     ]
+}
