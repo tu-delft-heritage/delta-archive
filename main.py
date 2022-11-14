@@ -22,7 +22,7 @@ class Meta:
         self.worldcat = worldcat
 
 
-csv = pd.read_csv('csv/72820760-01-08-updated-removed-errors.csv')
+csv = pd.read_csv('csv/th-mededelingen.csv')
 Meta.title = "TH Mededelingen"
 Meta.author = "Delft: Technische Hogeschool"
 Meta.worldcat = '<a href="https://tudelft.on.worldcat.org/oclc/72820760">72820760</a>'
@@ -75,9 +75,9 @@ for i, key in enumerate(groups.keys()):
     year_filename = "{}-{}.json".format(ref1.lower(), jaar)
 
     ref_id = "https://tu-delft-library.github.io/delta-archief/manifests/{}/{}"\
-        .format(Meta.title.replace(" ", "-"), year_filename)
+        .format(Meta.title.replace(" ", "-").lower(), year_filename)
     mani = {"@id": ref_id,
-            "label": str(ref2),
+            "label": jaar,
             "@type": "sc:Manifest"}
 
     json_out["manifests"].append(mani)
