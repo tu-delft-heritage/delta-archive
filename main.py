@@ -69,7 +69,7 @@ for i, key in enumerate(groups.keys()):
 
     dlcs_json = dlcs_base.format(ref1.lstrip("en-"), ref2)
     if ref2.isdigit():
-        jaar = str(ref2) + " " + str(np.int_(ref2) + 1)[2:]
+        jaar = str(ref2) + "-" + str(np.int_(ref2) + 1)[2:]
     else:
         jaar = ref2
     year_filename = "{}-{}.json".format(ref1.lower(), jaar)
