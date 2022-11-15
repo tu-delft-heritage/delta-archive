@@ -2,7 +2,7 @@
         "@context": "http://iiif.io/api/presentation/2/context.json",
         "@id": "https://dlc.services/iiif-resource/7/string1string2string3/delta/2016-2017",
         "@type": "sc:Manifest",
-        "label": "Delta, Jaargang 49 (2016-2017)",
+        "label": "Delta, Jaargang 49 (2016-17)",
         "metadata": [
                 {
                         "label": "Titel",
@@ -14,7 +14,7 @@
                 },
                 {
                         "label": "Jaargang",
-                        "value": "49 (2016-2017)"
+                        "value": "49 (2016-17)"
                 },
                 {
                         "label": "Worldcat",

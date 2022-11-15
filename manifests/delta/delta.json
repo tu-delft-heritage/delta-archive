@@ -7,7 +7,7 @@
           },
           {
                "label": "Year",
-               "value": "1983-16-2017"
+               "value": "1983-2017"
           },
           {
                "label": "Worldcat",
@@ -169,27 +169,27 @@
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delta/delta-2012-2013.json",
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delta/delta-2012-13.json",
                "label": "2012-13",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delta/delta-2013-2014.json",
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delta/delta-2013-14.json",
                "label": "2013-14",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delta/delta-2014-2015.json",
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delta/delta-2014-15.json",
                "label": "2014-15",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delta/delta-2015-2016.json",
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delta/delta-2015-16.json",
                "label": "2015-16",
                "@type": "sc:Manifest"
           },
           {
-               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delta/delta-2016-2017.json",
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delta/delta-2016-17.json",
                "label": "2016-17",
                "@type": "sc:Manifest"
           }
