@@ -21,6 +21,21 @@
         "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delta/delta.json",
         "@type": "sc:Collection",
         "label": "Delta"
+      },
+      {
+        "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delft-integraal/delft-integraal.json",
+        "@type": "sc:Collection",
+        "label": "Delft Integraal"
+      },
+      {
+        "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delft-outlook/delft-outlook.json",
+        "@type": "sc:Collection",
+        "label": "Delft Outlook"
+      },
+      {
+        "@id": "https://tu-delft-library.github.io/delta-archief/manifests/owee/owee.json",
+        "@type": "sc:Collection",
+        "label": "Owee"
       }
     ]
   }
