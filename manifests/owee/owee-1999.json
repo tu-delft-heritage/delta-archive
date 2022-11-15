@@ -2,11 +2,11 @@
         "@context": "http://iiif.io/api/presentation/2/context.json",
         "@id": "https://dlc.services/iiif-resource/7/string1string2string3/owee/1999",
         "@type": "sc:Manifest",
-        "label": "Oweekrant, Jaargang 2 (1999)",
+        "label": "Owee, Jaargang 2 (1999)",
         "metadata": [
                 {
                         "label": "Titel",
-                        "value": "Oweekrant"
+                        "value": "Owee"
                 },
                 {
                         "label": "Uitgever",
