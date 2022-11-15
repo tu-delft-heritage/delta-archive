@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
@@ -26,15 +28,12 @@
     <div id="uv" class="uv"></div>
 
     <script type="text/javascript">
-      var urlAdaptor = new UV.IIIFURLAdaptor(true);
 
-      const data = urlAdaptor.getInitialData({
-        manifest: "https://tu-delft-library.github.io/delta-archief/manifests/delta-archief.json",
-        embedded: true // needed for codesandbox frame
-      });
+      const data = {
+        manifest: "https://tu-delft-library.github.io/delta-archief/manifests/delta-archief.json"
+      };
 
       uv = UV.init("uv", data);
-      urlAdaptor.bindTo(uv);
 
       uv.on("configure", function ({ config, cb }) {
         cb({
@@ -45,7 +44,7 @@
                 autoExpandTreeIfFewerThan: 100,
                 defaultToTreeEnabled: true
                }
-              }
+            }
           }
         });
       });
