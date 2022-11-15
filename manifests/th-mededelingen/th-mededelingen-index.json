@@ -2,19 +2,15 @@
         "@context": "http://iiif.io/api/presentation/2/context.json",
         "@id": "https://dlc.services/iiif-resource/7/string1string2string3/th-mededelingen/index",
         "@type": "sc:Manifest",
-        "label": "TH Mededelingen, Jaargang 21 (index)",
+        "label": "TH Mededelingen, Inhoudsopgage van de jaargangen 1 t/m 6",
         "metadata": [
                 {
                         "label": "Titel",
-                        "value": "TH Mededelingen"
+                        "value": "TH Mededelingen, Inhoudsopgage van de jaargangen 1 t/m 6"
                 },
                 {
                         "label": "Uitgever",
                         "value": "Delft: Technische Hogeschool"
-                },
-                {
-                        "label": "Jaargang",
-                        "value": "21 (index)"
                 },
                 {
                         "label": "Worldcat",

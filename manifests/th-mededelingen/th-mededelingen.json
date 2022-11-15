@@ -59,6 +59,11 @@
                "@type": "sc:Manifest"
           },
           {
+               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/th-mededelingen/th-mededelingen-index.json",
+               "label": "Index Jaargang 1-6",
+               "@type": "sc:Manifest"
+          },
+          {
                "@id": "https://tu-delft-library.github.io/delta-archief/manifests/th-mededelingen/th-mededelingen-1961-62.json",
                "label": "1961-62",
                "@type": "sc:Manifest"
@@ -116,11 +121,6 @@
           {
                "@id": "https://tu-delft-library.github.io/delta-archief/manifests/th-mededelingen/th-mededelingen-1972-73.json",
                "label": "1972-73",
-               "@type": "sc:Manifest"
-          },
-          {
-               "@id": "https://tu-delft-library.github.io/delta-archief/manifests/th-mededelingen/th-mededelingen-index.json",
-               "label": "index",
                "@type": "sc:Manifest"
           }
      ]
