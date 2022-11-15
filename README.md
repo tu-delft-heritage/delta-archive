@@ -17,13 +17,28 @@ Alternatively, [Mirador](https://projectmirador.org) can be used:
 
 - [https://projectmirador.org/embed/?manifest=https://tu-delft-library.github.io/delta-archief/manifests/delta-archief.json](https://projectmirador.org/embed/?manifest=https://tu-delft-library.github.io/delta-archief/manifests/delta-archief.json)
 
-The magazines were digitised in 2021 by [GMS](https://gmsnl.com). The project was funded by Delta (Delta), Alumni Relations (Delft Integraal and Delft Outlook) and the Academic Heritage Team of TU Delft Library (THD Nieuws). Please note that some of the volumes might not be complete due to missing issues in the archive of Delta and the collections of TU Delft Library.
+Links to the invidual magazines:
+
+| Magazine | IIIF Manifest | Universal Viewer | Mirador |
+| ---  | --- | --- | --- |
+TH Mededelingen | [Open](https://tu-delft-library.github.io/delta-archief/manifests/th-mededelingen/th-mededelingen.json) | [Open](http://universalviewer.io/uv.html?manifest=https://tu-delft-library.github.io/delta-archief/manifests/th-mededelingen/th-mededelingen.json) | [Open](https://projectmirador.org/embed/?manifest=https://tu-delft-library.github.io/delta-archief/manifests/th-mededelingen/th-mededelingen.json) |
+THD Nieuws | [Open](https://tu-delft-library.github.io/delta-archief/manifests/thd-nieuws/thd-nieuws.json) | [Open](http://universalviewer.io/uv.html?manifest=https://tu-delft-library.github.io/delta-archief/manifests/thd-nieuws/thd-nieuws.json) | [Open](https://projectmirador.org/embed/?manifest=https://tu-delft-library.github.io/delta-archief/manifests/thd-nieuws/thd-nieuws.json) |
+Delta | [Open](https://tu-delft-library.github.io/delta-archief/manifests/delta/delta.json) | [Open](http://universalviewer.io/uv.html?manifest=https://tu-delft-library.github.io/delta-archief/manifests/delta/delta.json) | [Open](https://projectmirador.org/embed/?manifest=https://tu-delft-library.github.io/delta-archief/manifests/delta/delta.json) |
+Delft Integraal | [Open](https://tu-delft-library.github.io/delta-archief/manifests/delft-integraal/delft-integraal.json) | [Open](http://universalviewer.io/uv.html?manifest=https://tu-delft-library.github.io/delta-archief/manifests/delft-integraal/delft-integraal.json) | [Open](https://projectmirador.org/embed/?manifest=https://tu-delft-library.github.io/delta-archief/manifests/delft-integraal/delft-integraal.json) |
+Delft Outlook | [Open](https://tu-delft-library.github.io/delta-archief/manifests/delft-outlook/delft-outlook.json) | [Open](http://universalviewer.io/uv.html?manifest=https://tu-delft-library.github.io/delta-archief/manifests/delft-outlook/delft-outlook.json) | [Open](https://projectmirador.org/embed/?manifest=https://tu-delft-library.github.io/delta-archief/manifests/delft-outlook/delft-outlook.json) |
+Owee | [Open](https://tu-delft-library.github.io/delta-archief/manifests/owee/owee.json) | [Open](http://universalviewer.io/uv.html?manifest=https://tu-delft-library.github.io/delta-archief/manifests/owee/owee.json) | [Open](https://projectmirador.org/embed/?manifest=https://tu-delft-library.github.io/delta-archief/manifests/owee/owee.json) |
+
+## Background
+
+The magazines were digitised in 2021 by [GMS](https://gmsnl.com). The project was funded by Delta (Delta), Alumni Relations (Delft Integraal and Delft Outlook) and the Academic Heritage Team of TU Delft Library (THD Nieuws). Please note that some of the volumes might not be complete due to missing issues in the archive of Delta or the collection of TU Delft Library.
 
 The images are hosted at the [DLCS](https://dlcs.info), part of the infrastructure for presenting the digital special collections of TU Delft Library. The DLCS supports queries based on ingested strings, returning IIIF Presentation Manifests of matching images. The following query for example returns Volume 1 (1952-53) of TH Mededelingen:
 
 - [https://dlc.services/iiif-resource/7/string1string2string3/th-mededelingen/1952](https://dlc.services/iiif-resource/7/string1string2string3/th-mededelingen/1952)
 
-These so-called skeleton manifests lack structures (table of contents) and metadata. This repository contains a Python script that adds the missing properties to the JSON manifests of each volume. The script also generates IIIF Collection Manifests for each magazine. It uses the information available in the `/csv` folder about the uploaded images and strings. The resulting JSON manifests can be found in the `/manifests/` folder.
+These so-called skeleton manifests lack structures (table of contents) and metadata. This repository contains a Python script that adds the missing properties to JSON manifests of each volume. The script also generates IIIF Collection Manifests for each magazine. It uses the information available in the `/csv` folder about the uploaded images and strings. The resulting JSON manifests can be found in the `/manifests` folder. The following IIIF Collection Manifest lists all the available journals and is preloaded in the viewers linked above:
+
+- [https://tu-delft-library.github.io/delta-archief/manifests/delta-archief.json](https://tu-delft-library.github.io/delta-archief/manifests/delta-archief.json)
 
 ## Todo
 
