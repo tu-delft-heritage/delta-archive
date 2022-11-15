@@ -18,7 +18,7 @@
         "label": "THD Nieuws"
       },
       {
-        "@id": "https://tu-delft-library.github.io/delta-archief/manifests/thd-nieuws/delta/delta.json",
+        "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delta/delta.json",
         "@type": "sc:Collection",
         "label": "Delta"
       }
