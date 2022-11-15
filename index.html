@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
@@ -6,14 +8,13 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
     <link rel="icon" href="favicon.ico" />
-    <title>Universal Viewer</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/universalviewer@next/dist/uv.css"
+      href="https://cdn.jsdelivr.net/npm/universalviewer@4.0.0/dist/uv.css"
     />
     <script
       type="application/javascript"
-      src="https://cdn.jsdelivr.net/npm/universalviewer@next/dist/umd/UV.js"
+      src="https://cdn.jsdelivr.net/npm/universalviewer@4.0.0/dist/umd/UV.js"
     ></script>
     <style>
       body {
@@ -27,22 +28,27 @@
     <div id="uv" class="uv"></div>
 
     <script type="text/javascript">
-      var urlAdaptor = new UV.URLAdaptor(true);
 
-      const data = urlAdaptor.getInitialData({
-        manifest: "https://tu-delft-library.github.io/delta-archief/manifests/th-mededelingen/th-mededelingen.json",
-        embedded: true // needed for codesandbox frame
-      });
+      const data = {
+        manifest: "https://tu-delft-library.github.io/delta-archief/manifests/delta-archief.json"
+      };
 
       uv = UV.init("uv", data);
 
       uv.on("configure", function ({ config, cb }) {
         cb({
-          options: { footerPanelEnabled: false }
+          modules: {
+            contentLeftPanel: {
+               options: {
+                autoExpandTreeEnabled: false,
+                autoExpandTreeIfFewerThan: 100,
+                defaultToTreeEnabled: true
+               }
+            }
+          }
         });
       });
     </script>
-    
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
