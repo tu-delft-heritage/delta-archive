@@ -1,6 +1,6 @@
 {
         "@context": "http://iiif.io/api/presentation/2/context.json",
-        "@id": "https://dlc.services/iiif-resource/7/string1string2string3/outlook/1987",
+        "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delft-outlook/en-outlook-1987.json",
         "@type": "sc:Manifest",
         "label": "Delft Outlook, Jaargang 4 (1987)",
         "metadata": [
@@ -114,7 +114,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=70"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "1"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=71",
@@ -183,7 +184,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=71"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "2"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=72",
@@ -252,7 +254,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=72"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "3"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=73",
@@ -321,7 +324,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=73"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "4"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=74",
@@ -390,7 +394,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=74"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "5"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=75",
@@ -459,7 +464,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=75"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "6"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=76",
@@ -528,7 +534,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=76"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "7"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=77",
@@ -597,7 +604,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=77"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "8"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=78",
@@ -666,7 +674,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=78"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "9"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=79",
@@ -735,7 +744,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=79"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "10"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=80",
@@ -804,7 +814,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=80"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "11"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=81",
@@ -873,7 +884,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=81"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "12"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=82",
@@ -942,7 +954,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=82"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "13"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=83",
@@ -1011,7 +1024,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=83"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "14"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=84",
@@ -1080,7 +1094,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=84"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "15"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=85",
@@ -1149,7 +1164,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=85"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "16"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=86",
@@ -1218,7 +1234,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=86"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "17"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=87",
@@ -1287,7 +1304,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=87"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "18"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=88",
@@ -1356,7 +1374,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=88"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "19"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=89",
@@ -1425,7 +1444,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=89"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "20"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=90",
@@ -1494,7 +1514,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=90"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "21"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=91",
@@ -1563,7 +1584,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=91"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "22"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=92",
@@ -1632,7 +1654,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=92"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "23"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=93",
@@ -1701,7 +1724,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=93"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "24"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=94",
@@ -1770,7 +1794,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=94"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "25"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=95",
@@ -1839,7 +1864,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=95"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "26"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=96",
@@ -1908,7 +1934,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=96"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "27"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=97",
@@ -1977,7 +2004,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=97"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "28"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=98",
@@ -2046,7 +2074,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=98"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "29"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=99",
@@ -2115,7 +2144,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=99"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "30"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=100",
@@ -2184,7 +2214,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=100"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "31"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=101",
@@ -2253,7 +2284,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=101"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "32"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=102",
@@ -2322,7 +2354,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=102"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "33"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=103",
@@ -2391,7 +2424,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=103"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "34"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=104",
@@ -2460,7 +2494,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=104"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "35"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=105",
@@ -2529,7 +2564,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=105"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "36"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=106",
@@ -2598,7 +2634,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=106"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "37"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=107",
@@ -2667,7 +2704,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=107"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "38"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=108",
@@ -2736,7 +2774,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=108"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "39"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=109",
@@ -2805,7 +2844,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=109"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "40"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=110",
@@ -2874,7 +2914,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=110"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "41"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=111",
@@ -2943,7 +2984,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=111"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "42"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=112",
@@ -3012,7 +3054,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=112"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "43"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=113",
@@ -3081,7 +3124,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=113"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "44"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=114",
@@ -3150,7 +3194,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=114"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "45"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=115",
@@ -3219,7 +3264,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=115"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "46"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=116",
@@ -3288,7 +3334,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=116"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "47"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=117",
@@ -3357,7 +3404,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=outlook&n1=&n2=117"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "48"
                                 }
                         ]
                 }
