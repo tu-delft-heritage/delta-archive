@@ -1,6 +1,6 @@
 {
         "@context": "http://iiif.io/api/presentation/2/context.json",
-        "@id": "https://dlc.services/iiif-resource/7/string1string2string3/integraal/2016",
+        "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delft-integraal/nl-integraal-2016.json",
         "@type": "sc:Manifest",
         "label": "Delft Integraal, Jaargang 33 (2016)",
         "metadata": [
@@ -132,7 +132,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4797"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "1"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4798",
@@ -201,7 +202,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4798"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "2"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4799",
@@ -270,7 +272,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4799"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "3"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4800",
@@ -339,7 +342,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4800"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "4"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4801",
@@ -408,7 +412,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4801"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "5"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4802",
@@ -477,7 +482,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4802"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "6"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4803",
@@ -546,7 +552,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4803"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "7"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4804",
@@ -615,7 +622,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4804"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "8"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4805",
@@ -684,7 +692,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4805"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "9"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4806",
@@ -753,7 +762,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4806"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "10"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4807",
@@ -822,7 +832,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4807"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "11"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4808",
@@ -891,7 +902,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4808"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "12"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4809",
@@ -960,7 +972,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4809"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "13"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4810",
@@ -1029,7 +1042,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4810"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "14"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4811",
@@ -1098,7 +1112,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4811"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "15"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4812",
@@ -1167,7 +1182,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4812"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "16"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4813",
@@ -1236,7 +1252,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4813"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "17"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4814",
@@ -1305,7 +1322,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4814"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "18"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4815",
@@ -1374,7 +1392,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4815"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "19"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4816",
@@ -1443,7 +1462,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4816"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "20"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4817",
@@ -1512,7 +1532,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4817"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "21"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4818",
@@ -1581,7 +1602,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4818"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "22"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4819",
@@ -1650,7 +1672,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4819"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "23"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4820",
@@ -1719,7 +1742,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4820"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "24"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4821",
@@ -1788,7 +1812,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4821"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "25"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4822",
@@ -1857,7 +1882,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4822"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "26"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4823",
@@ -1926,7 +1952,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4823"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "27"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4824",
@@ -1995,7 +2022,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4824"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "28"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4825",
@@ -2064,7 +2092,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4825"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "29"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4826",
@@ -2133,7 +2162,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4826"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "30"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4827",
@@ -2202,7 +2232,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4827"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "31"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4828",
@@ -2271,7 +2302,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4828"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "32"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4829",
@@ -2340,7 +2372,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4829"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "33"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4830",
@@ -2409,7 +2442,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4830"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "34"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4831",
@@ -2478,7 +2512,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4831"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "35"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4832",
@@ -2547,7 +2582,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4832"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "36"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4833",
@@ -2616,7 +2652,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4833"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "37"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4834",
@@ -2685,7 +2722,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4834"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "38"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4835",
@@ -2754,7 +2792,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4835"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "39"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4836",
@@ -2823,7 +2862,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4836"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "40"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4837",
@@ -2892,7 +2932,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4837"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "41"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4838",
@@ -2961,7 +3002,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4838"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "42"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4839",
@@ -3030,7 +3072,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4839"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "43"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4840",
@@ -3099,7 +3142,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4840"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "44"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4841",
@@ -3168,7 +3212,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4841"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "45"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4842",
@@ -3237,7 +3282,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4842"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "46"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4843",
@@ -3306,7 +3352,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4843"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "47"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4844",
@@ -3375,7 +3422,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4844"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "48"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4845",
@@ -3444,7 +3492,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4845"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "49"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4846",
@@ -3513,7 +3562,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4846"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "50"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4847",
@@ -3582,7 +3632,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4847"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "51"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4848",
@@ -3651,7 +3702,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4848"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "52"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4849",
@@ -3720,7 +3772,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4849"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "53"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4850",
@@ -3789,7 +3842,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4850"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "54"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4851",
@@ -3858,7 +3912,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4851"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "55"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4852",
@@ -3927,7 +3982,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4852"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "56"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4853",
@@ -3996,7 +4052,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4853"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "57"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4854",
@@ -4065,7 +4122,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4854"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "58"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4855",
@@ -4134,7 +4192,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4855"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "59"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4856",
@@ -4203,7 +4262,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4856"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "60"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4857",
@@ -4272,7 +4332,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4857"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "61"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4858",
@@ -4341,7 +4402,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4858"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "62"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4859",
@@ -4410,7 +4472,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4859"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "63"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4860",
@@ -4479,7 +4542,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4860"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "64"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4861",
@@ -4548,7 +4612,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4861"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "65"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4862",
@@ -4617,7 +4682,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4862"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "66"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4863",
@@ -4686,7 +4752,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4863"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "67"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4864",
@@ -4755,7 +4822,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4864"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "68"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4865",
@@ -4824,7 +4892,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4865"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "69"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4866",
@@ -4893,7 +4962,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4866"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "70"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4867",
@@ -4962,7 +5032,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4867"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "71"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4868",
@@ -5031,7 +5102,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4868"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "72"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4869",
@@ -5100,7 +5172,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4869"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "73"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4870",
@@ -5169,7 +5242,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4870"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "74"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4871",
@@ -5238,7 +5312,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4871"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "75"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4872",
@@ -5307,7 +5382,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4872"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "76"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4873",
@@ -5376,7 +5452,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4873"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "77"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4874",
@@ -5445,7 +5522,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4874"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "78"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4875",
@@ -5514,7 +5592,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4875"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "79"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4876",
@@ -5583,7 +5662,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4876"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "80"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4877",
@@ -5652,7 +5732,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4877"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "81"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4878",
@@ -5721,7 +5802,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4878"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "82"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4879",
@@ -5790,7 +5872,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4879"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "83"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4880",
@@ -5859,7 +5942,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4880"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "84"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4881",
@@ -5928,7 +6012,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4881"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "85"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4882",
@@ -5997,7 +6082,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4882"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "86"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4883",
@@ -6066,7 +6152,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4883"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "87"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4884",
@@ -6135,7 +6222,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4884"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "88"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4885",
@@ -6204,7 +6292,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4885"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "89"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4886",
@@ -6273,7 +6362,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4886"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "90"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4887",
@@ -6342,7 +6432,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4887"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "91"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4888",
@@ -6411,7 +6502,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4888"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "92"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4889",
@@ -6480,7 +6572,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4889"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "93"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4890",
@@ -6549,7 +6642,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4890"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "94"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4891",
@@ -6618,7 +6712,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4891"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "95"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4892",
@@ -6687,7 +6782,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4892"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "96"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4893",
@@ -6756,7 +6852,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4893"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "97"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4894",
@@ -6825,7 +6922,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4894"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "98"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4895",
@@ -6894,7 +6992,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4895"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "99"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4896",
@@ -6963,7 +7062,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4896"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "100"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4897",
@@ -7032,7 +7132,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4897"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "101"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4898",
@@ -7101,7 +7202,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4898"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "102"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4899",
@@ -7170,7 +7272,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4899"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "103"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4900",
@@ -7239,7 +7342,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4900"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "104"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4901",
@@ -7308,7 +7412,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4901"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "105"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4902",
@@ -7377,7 +7482,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4902"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "106"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4903",
@@ -7446,7 +7552,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4903"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "107"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4904",
@@ -7515,7 +7622,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4904"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "108"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4905",
@@ -7584,7 +7692,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4905"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "109"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4906",
@@ -7653,7 +7762,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4906"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "110"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4907",
@@ -7722,7 +7832,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4907"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "111"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4908",
@@ -7791,7 +7902,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4908"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "112"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4909",
@@ -7860,7 +7972,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4909"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "113"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4910",
@@ -7929,7 +8042,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4910"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "114"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4911",
@@ -7998,7 +8112,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4911"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "115"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4912",
@@ -8067,7 +8182,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4912"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "116"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4913",
@@ -8136,7 +8252,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4913"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "117"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4914",
@@ -8205,7 +8322,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4914"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "118"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4915",
@@ -8274,7 +8392,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4915"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "119"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4916",
@@ -8343,7 +8462,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4916"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "120"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4917",
@@ -8412,7 +8532,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4917"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "121"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4918",
@@ -8481,7 +8602,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4918"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "122"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4919",
@@ -8550,7 +8672,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4919"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "123"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4920",
@@ -8619,7 +8742,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4920"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "124"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4921",
@@ -8688,7 +8812,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4921"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "125"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4922",
@@ -8757,7 +8882,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4922"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "126"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4923",
@@ -8826,7 +8952,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4923"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "127"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4924",
@@ -8895,7 +9022,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4924"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "128"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4925",
@@ -8964,7 +9092,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4925"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "129"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4926",
@@ -9033,7 +9162,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4926"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "130"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4927",
@@ -9102,7 +9232,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4927"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "131"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4928",
@@ -9171,7 +9302,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4928"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "132"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4929",
@@ -9240,7 +9372,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4929"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "133"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4930",
@@ -9309,7 +9442,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4930"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "134"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4931",
@@ -9378,7 +9512,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4931"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "135"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4932",
@@ -9447,7 +9582,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4932"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "136"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4933",
@@ -9516,7 +9652,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4933"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "137"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4934",
@@ -9585,7 +9722,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4934"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "138"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4935",
@@ -9654,7 +9792,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4935"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "139"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4936",
@@ -9723,7 +9862,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4936"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "140"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4937",
@@ -9792,7 +9932,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4937"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "141"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4938",
@@ -9861,7 +10002,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4938"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "142"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4939",
@@ -9930,7 +10072,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4939"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "143"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4940",
@@ -9999,7 +10142,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4940"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "144"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4941",
@@ -10068,7 +10212,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4941"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "145"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4942",
@@ -10137,7 +10282,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4942"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "146"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4943",
@@ -10206,7 +10352,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4943"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "147"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4944",
@@ -10275,7 +10422,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4944"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "148"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4945",
@@ -10344,7 +10492,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4945"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "149"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4946",
@@ -10413,7 +10562,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4946"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "150"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4947",
@@ -10482,7 +10632,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4947"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "151"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4948",
@@ -10551,7 +10702,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4948"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "152"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4949",
@@ -10620,7 +10772,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4949"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "153"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4950",
@@ -10689,7 +10842,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4950"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "154"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4951",
@@ -10758,7 +10912,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4951"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "155"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4952",
@@ -10827,7 +10982,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4952"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "156"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4953",
@@ -10896,7 +11052,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4953"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "157"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4954",
@@ -10965,7 +11122,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4954"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "158"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4955",
@@ -11034,7 +11192,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4955"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "159"
                                 },
                                 {
                                         "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4956",
@@ -11103,7 +11262,8 @@
                                                         },
                                                         "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=integraal&n1=&n2=4956"
                                                 }
-                                        ]
+                                        ],
+                                        "label": "160"
                                 }
                         ]
                 }
