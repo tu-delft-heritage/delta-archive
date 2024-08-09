@@ -1,6 +1,6 @@
 {
         "@context": "http://iiif.io/api/presentation/2/context.json",
-        "@id": "https://tu-delft-heritage.github.io/delta-archief/manifests/th-mededelingen/th-mededelingen-1962-63.json",
+        "@id": "https://tu-delft-heritage.github.io/delta-archive/manifests/th-mededelingen/th-mededelingen-1962-63.json",
         "@type": "sc:Manifest",
         "label": "TH Mededelingen, Jaargang 10 (1962-63)",
         "metadata": [

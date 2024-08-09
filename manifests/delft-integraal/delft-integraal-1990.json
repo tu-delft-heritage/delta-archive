@@ -1,6 +1,6 @@
 {
         "@context": "http://iiif.io/api/presentation/2/context.json",
-        "@id": "https://tu-delft-heritage.github.io/delta-archief/manifests/delft-integraal/delft-integraal-1990.json",
+        "@id": "https://tu-delft-heritage.github.io/delta-archive/manifests/delft-integraal/delft-integraal-1990.json",
         "@type": "sc:Manifest",
         "label": "Delft Integraal, Jaargang 7 (1990)",
         "metadata": [

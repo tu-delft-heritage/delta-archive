@@ -1,6 +1,6 @@
 {
         "@context": "http://iiif.io/api/presentation/2/context.json",
-        "@id": "https://tu-delft-heritage.github.io/delta-archief/manifests/owee/owee-1998.json",
+        "@id": "https://tu-delft-heritage.github.io/delta-archive/manifests/owee/owee-1998.json",
         "@type": "sc:Manifest",
         "label": "Owee, Jaargang 1 (1998)",
         "metadata": [

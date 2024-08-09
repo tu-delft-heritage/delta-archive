@@ -1,6 +1,6 @@
 {
         "@context": "http://iiif.io/api/presentation/2/context.json",
-        "@id": "https://tu-delft-heritage.github.io/delta-archief/manifests/delft-outlook/delft-outlook-2010.json",
+        "@id": "https://tu-delft-heritage.github.io/delta-archive/manifests/delft-outlook/delft-outlook-2010.json",
         "@type": "sc:Manifest",
         "label": "Delft Outlook, Jaargang 27 (2010)",
         "metadata": [

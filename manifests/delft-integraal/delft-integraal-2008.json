@@ -1,6 +1,6 @@
 {
         "@context": "http://iiif.io/api/presentation/2/context.json",
-        "@id": "https://tu-delft-heritage.github.io/delta-archief/manifests/delft-integraal/delft-integraal-2008.json",
+        "@id": "https://tu-delft-heritage.github.io/delta-archive/manifests/delft-integraal/delft-integraal-2008.json",
         "@type": "sc:Manifest",
         "label": "Delft Integraal, Jaargang 25 (2008)",
         "metadata": [

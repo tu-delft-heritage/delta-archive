@@ -1,6 +1,6 @@
 {
         "@context": "http://iiif.io/api/presentation/2/context.json",
-        "@id": "https://tu-delft-heritage.github.io/delta-archief/manifests/th-mededelingen/th-mededelingen-1966-67.json",
+        "@id": "https://tu-delft-heritage.github.io/delta-archive/manifests/th-mededelingen/th-mededelingen-1966-67.json",
         "@type": "sc:Manifest",
         "label": "TH Mededelingen, Jaargang 14 (1966-67)",
         "metadata": [
