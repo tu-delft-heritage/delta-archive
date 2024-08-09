@@ -1,6 +1,6 @@
 {
         "@context": "http://iiif.io/api/presentation/2/context.json",
-        "@id": "https://tu-delft-library.github.io/delta-archief/manifests/thd-nieuws/thd-nieuws-1973-74.json",
+        "@id": "https://tu-delft-heritage.github.io/delta-archief/manifests/thd-nieuws/thd-nieuws-1973-74.json",
         "@type": "sc:Manifest",
         "label": "THD Nieuws, Jaargang 6 (1973-74)",
         "metadata": [

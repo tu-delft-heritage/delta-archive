@@ -1,6 +1,6 @@
 {
         "@context": "http://iiif.io/api/presentation/2/context.json",
-        "@id": "https://tu-delft-library.github.io/delta-archief/manifests/thd-nieuws/thd-nieuws-1980-81.json",
+        "@id": "https://tu-delft-heritage.github.io/delta-archief/manifests/thd-nieuws/thd-nieuws-1980-81.json",
         "@type": "sc:Manifest",
         "label": "THD Nieuws, Jaargang 13 (1980-81)",
         "metadata": [

@@ -1,6 +1,6 @@
 {
         "@context": "http://iiif.io/api/presentation/2/context.json",
-        "@id": "https://tu-delft-library.github.io/delta-archief/manifests/delta/delta-1984-85.json",
+        "@id": "https://tu-delft-heritage.github.io/delta-archief/manifests/delta/delta-1984-85.json",
         "@type": "sc:Manifest",
         "label": "Delta, Jaargang 17 (1984-85)",
         "metadata": [

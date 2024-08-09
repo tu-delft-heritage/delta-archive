@@ -1,6 +1,6 @@
 {
         "@context": "http://iiif.io/api/presentation/2/context.json",
-        "@id": "https://tu-delft-library.github.io/delta-archief/manifests/thd-nieuws/thd-nieuws-1968-69.json",
+        "@id": "https://tu-delft-heritage.github.io/delta-archief/manifests/thd-nieuws/thd-nieuws-1968-69.json",
         "@type": "sc:Manifest",
         "label": "THD Nieuws, Jaargang 1 (1968-69)",
         "metadata": [
